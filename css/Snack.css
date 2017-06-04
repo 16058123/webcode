@@ -1,0 +1,112 @@
+<style type="text/css">
+html,body{
+	width: 100%;
+	margin: 0;
+	height: 100%
+}
+
+body
+    	 	{      
+      	 		background-image: url(../images/abc.jpg);      
+        		background-size:cover;  
+                background-attachment : fixed;  
+    	 	}      
+		ul
+		{
+			list-style-type:none;
+			margin:0;
+			padding:0;
+			overflow:hidden;
+			width:100%;
+            background-color:purple;
+		}
+
+		li
+		{
+			float:left;
+			width: 25%;
+		}
+
+		a:link,a:visited
+		{
+			display:block;
+			width:326px;
+			font-weight:bold;
+			color:#FFFFFF;
+			background-color:purple;
+			padding:4px;
+			text-decoration:none;
+			text-transform:uppercase;
+			height:30px;
+			text-align: center;
+    			margin-left: 0px;
+		}
+		a:hover,a:active
+		{
+			background-color:#cc0000;
+		}
+		div.right
+		{  
+			color: white;
+           width: 70%;
+           line-height: 180%;
+           margin-left:30%;
+           margin-top:50px;  
+		}
+		h1.header
+		{
+			padding: 4px;
+		    margin:0;
+
+		}
+		div.left
+		{
+			float: left;
+			width: 20%;
+			margin:50px;
+			
+		}
+		.abstract_list th {
+    font-weight: bold;
+    width: 90px;
+    line-height: 27px;
+    border-top: 1px dashed #dedfe1;
+    text-align: left;
+    vertical-align: top;
+}
+.abstract_tbl {
+    width: 100%;
+    margin-top: -1px;
+}
+    tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.abstract_tbl_wrap {
+    margin: 50px 35px;
+    overflow: hidden;
+}
+.abstract_list_wrap {
+    width: 49%;
+    vertical-align: top;
+}
+.abstract_list {
+    width: 95%;
+}
+div.right1
+		{
+			float: right;
+			width: 20%;
+			margin:100px 50px;
+			
+		}
+		div.left1
+		{
+           width: 70%;
+           line-height: 180%;
+           margin-right:30%; 
+           margin-top:80px; 
+		}
+      
+		</style>
